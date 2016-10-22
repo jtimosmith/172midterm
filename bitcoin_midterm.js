@@ -96,7 +96,7 @@ repl.start({
            Object.keys(orders).forEach(function(id) 
            {
               var user_order = orders[id];
-              console.log(id + ' : ' + user_order.type.toUpperCase() + ' ' + user_order.amount + ' : UNFILLED');
+              console.log(id + ' : ' + user_order.type.toUpperCase() + ' ' + user_order.amount + ' : Unfilled');
            }); 
            break;
    
